@@ -1,0 +1,31 @@
+{
+    "name": "hellohasan/laravel-slugable",
+    "description": "It's a unique slug generator for laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hellohasan\\LaravelSlugable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hellohasan",
+            "email": "hellomrhasan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hellohasan\\LaravelSlugable\\SlugableServiceProvider"
+            ],
+            "aliases": {
+                "Slugable": "Hellohasan\\LaravelSlugable\\Slugable"
+            }
+        }
+    }
+}
