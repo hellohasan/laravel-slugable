@@ -2,6 +2,13 @@
     "name": "hellohasan/laravel-slugable",
     "description": "It's a unique slug generator for laravel",
     "type": "library",
+    "keywords": [
+        "laravel-slugable",
+        "laravel-unique-slug",
+        "laravel-custom-slug",
+        "laravel-slug"
+    ],
+    "homepage": "https://github.com/hellohasan/laravel-slugable",
     "license": "MIT",
     "autoload": {
         "psr-4": {

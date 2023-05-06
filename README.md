@@ -17,15 +17,15 @@ use Hellohasan\LaravelSlugable\Facades\Slugable;
 ### User like this
 
 ```php
-Slugable::generate(App\Model\EloquentModel::class,'input-value','filed-name','separator');
+Slugable::generate(App\Model\EloquentModel::class,'input-value','slugable-column-name','separator');
 ```
 
 ## Example
 
 ```php
-Slugable::generate(App\Model\EloquentModel::class,'Hasan Rahman','name','--');
+Slugable::generate(App\Model\EloquentModel::class,'Hasan Rahman','slug','--');
 // hasan--rahman
 
-Slugable::generate(App\Model\EloquentModel::class,'Hasan Rahman','name','--');
+Slugable::generate(App\Model\EloquentModel::class,'Hasan Rahman','slug','--');
 // hasan--rahman--1
 ```
